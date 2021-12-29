@@ -5,6 +5,16 @@ public class InventoryMasterPojo {
     private String skuId;
     private String skuDesc;
 
+    public String getEnvironment() {
+        return environment;
+    }
+
+    public void setEnvironment(String environment) {
+        this.environment = environment;
+    }
+
+    private String environment;
+
     public int getId() {
         return id;
     }
